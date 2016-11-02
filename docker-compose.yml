@@ -1,0 +1,8 @@
+version: '2'
+services:
+  dotnetapp-build:
+    image: microsoft/dotnet:1.0.0-preview2.1-sdk
+    volumes:
+      - .:/sln
+    working_dir: /sln
+    entrypoint: ["sh", "./build.sh"]
