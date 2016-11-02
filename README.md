@@ -8,6 +8,7 @@ Uses the [dotnet/dotnet-docker-samples](https://github.com/dotnet/dotnet-docker-
 * Run `sh buildandpublish.sh`
     - runs `docker-compose up` to build and test the console application within the container.
     - runs `docker build -t spboyer/dotnetbot:production .` to create the final production image
+* Run application `docker run spboyer/dotnetbot:production`
 
 ### Windows (TODO)
 
