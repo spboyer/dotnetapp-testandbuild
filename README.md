@@ -15,5 +15,3 @@ Uses the [dotnet/dotnet-docker-samples](https://github.com/dotnet/dotnet-docker-
 
 * Notes
 
-Need a non SDK base image for the production image.
-
